@@ -1,0 +1,12 @@
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\bin\Debug\net6.0\ProjectTXLibrary.deps.json
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\bin\Debug\net6.0\ProjectTXLibrary.dll
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\bin\Debug\net6.0\ProjectTXLibrary.pdb
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.csproj.AssemblyReference.cache
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.AssemblyInfoInputs.cache
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.AssemblyInfo.cs
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.dll
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\refint\ProjectTXLibrary.dll
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ProjectTXLibrary.pdb
+C:\Users\Nhuvo\Documents\ProjectTXServer\ProjectTXServer\ProjectTXLibrary\obj\Debug\net6.0\ref\ProjectTXLibrary.dll
