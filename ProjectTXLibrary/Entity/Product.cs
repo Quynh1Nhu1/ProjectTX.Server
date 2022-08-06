@@ -23,6 +23,7 @@ namespace ProjectTXServer.Entity
         [DisplayName("ProductRate")]
         public int ProductRate { set; get; }
         public List<ProductInProductType> ListProduct { get; set; }
+        public List<ProductInGender> ListProductGender { get; set; }
         //public List<ProductInCart> ProductInCartP { get; set; }
         //public List<ReviewInproduct> ReviewInproductP { get; set; }
 

@@ -43,6 +43,8 @@ namespace ProjectTXServer.Data.DataSeeding
             var product26 = Guid.NewGuid().ToString();
             var product27 = Guid.NewGuid().ToString();
             var product28 = Guid.NewGuid().ToString();
+            var product29 = Guid.NewGuid().ToString();
+            var product30 = Guid.NewGuid().ToString();
 
 
             //Table Products
@@ -50,18 +52,18 @@ namespace ProjectTXServer.Data.DataSeeding
                 new Product()
                 {
                     ProductId = product1,
-                    ProductName = "Spider Man",
-                    ProductCover = "css/images/vangioitienlung.PNG",
-                    ProductDescription = "This is Spider Man Product",
+                    ProductName = "The Astronut",
+                    ProductCover = "css/images/product_men1.PNG",
+                    ProductDescription = "This is BST Product",
                     ProductIntro = "link clip",
                     ProductRate = 1
                 },
                 new Product()
                 {
                     ProductId = product2,
-                    ProductName = "Mavel",
-                    ProductCover = "css/images/dauladailuc.PNG",
-                    ProductDescription = "This is Mavel Product",
+                    ProductName = "BST Summer T-shirt",
+                    ProductCover = "css/images/product_men2.PNG",
+                    ProductDescription = "Men T-shirt The Astronut",
                     ProductIntro = "link clip",
                     ProductRate = 1
                 }
@@ -69,36 +71,36 @@ namespace ProjectTXServer.Data.DataSeeding
                 new Product()
                 {
                     ProductId = product3,
-                    ProductName = "Tom And Jerry",
-                    ProductCover = "css/images/Thegioihoanmy.PNG",
-                    ProductDescription = "This is Tom And Jerry Product",
+                    ProductName = "King man T shirt",
+                    ProductCover = "css/images/product_men3.PNG",
+                    ProductDescription = "The King man T shirt make by coton",
                     ProductIntro = "link clip",
                     ProductRate = 3
                 },
                 new Product()
                 {
                     ProductId = product4,
-                    ProductName = "Connan",
-                    ProductCover = "css/images/yeuthanky.PNG",
-                    ProductDescription = "This is Connan Product",
+                    ProductName = "Anti formalism",
+                    ProductCover = "css/images/product_men4.PNG",
+                    ProductDescription = "The Anti formalism T-shirt for men",
                     ProductIntro = "link clip",
                     ProductRate = 3
                 },
                 new Product()
                 {
                     ProductId = product5,
-                    ProductName = "Sogoku1",
-                    ProductCover = "css/images/dauphathuongkhung.PNG",
-                    ProductDescription = "This is Songoku1 Product",
+                    ProductName = "Unifas",
+                    ProductCover = "css/images/product_men5.PNG",
+                    ProductDescription = "This is Unifas",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product6,
-                    ProductName = "Naruto1",
-                    ProductCover = "css/images/vothanchuate.PNG",
-                    ProductDescription = "This is naruto1 Product",
+                    ProductName = "T shirt for men",
+                    ProductCover = "css/images/product_men6.PNG",
+                    ProductDescription = "Make in china",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
@@ -106,7 +108,7 @@ namespace ProjectTXServer.Data.DataSeeding
                 {
                     ProductId = product7,
                     ProductName = "YourName",
-                    ProductCover = "css/images/movie15.jpg",
+                    ProductCover = "css/images/product_men7.PNG",
                     ProductDescription = "This is YourName Product",
                     ProductIntro = "link clip",
                     ProductRate = 5
@@ -114,132 +116,222 @@ namespace ProjectTXServer.Data.DataSeeding
                 new Product()
                 {
                     ProductId = product8,
-                    ProductName = "Kamen Rider",
-                    ProductCover = "css/images/movie14.jpg",
-                    ProductDescription = "This is Kamen Rider Product",
+                    ProductName = "T-shirt smile",
+                    ProductCover = "css/images/product_men8.PNG",
+                    ProductDescription = "T-shirt smile, that is the best for you",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product9,
-                    ProductName = "Naruto2",
-                    ProductCover = "css/images/movie13.jpg",
-                    ProductDescription = "This is Naruto2 Product",
+                    ProductName = "Magic T-shirt",
+                    ProductCover = "css/images/product_men9.PNG",
+                    ProductDescription = "True choise for guy",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product10,
-                    ProductName = "Songoku2",
-                    ProductCover = "css/images/movie12.jpg",
-                    ProductDescription = "This is Songoku2 Product",
+                    ProductName = "Astronaut",
+                    ProductCover = "css/images/product_men10.PNG",
+                    ProductDescription = "That is Astronaut",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product11,
-                    ProductName = "Songoku2",
-                    ProductCover = "css/images/movie11.jpg",
-                    ProductDescription = "This is Songoku2 Product",
+                    ProductName = "women1",
+                    ProductCover = "css/images/product_women1.PNG",
+                    ProductDescription = "Headsfer T-shirt for women1 have a passion with SWAG",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product12,
-                    ProductName = "Đấu La Đại Lục",
-                    ProductCover = "css/images/movie10.jpg",
-                    ProductDescription = "This is Đấu La Đại Lục Product",
+                    ProductName = "women2",
+                    ProductCover = "css/images/product_women2.PNG",
+                    ProductDescription = "This is women2",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product13,
-                    ProductName = "Yêu Thần Ký",
-                    ProductCover = "css/images/movie9.jpg",
-                    ProductDescription = "This is Yêu Thần Ký Product",
+                    ProductName = "women3",
+                    ProductCover = "css/images/product_women3.PNG",
+                    ProductDescription = "This is women3",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product14,
-                    ProductName = "Vạn Giới Thần Chủ",
-                    ProductCover = "css/images/movie8.jpg",
-                    ProductDescription = "This is Vạn Giới Thần Chủ Product",
+                    ProductName = "women4",
+                    ProductCover = "css/images/product_women4.PNG",
+                    ProductDescription = "This is women4",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product15,
-                    ProductName = "Võ Thần Chúa Tể",
-                    ProductCover = "css/images/movie7.jpg",
-                    ProductDescription = "This is Võ Thần Chúa Tể Product",
+                    ProductName = "women5",
+                    ProductCover = "css/images/product_women5.PNG",
+                    ProductDescription = "This is women5",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product16,
-                    ProductName = "Vạn Giới Tiên Lung",
-                    ProductCover = "css/images/movie6.jpg",
-                    ProductDescription = "This is Vạn Giới Tiên Lung Product",
+                    ProductName = "women6",
+                    ProductCover = "css/images/product_women6.PNG",
+                    ProductDescription = "This is women6",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product17,
-                    ProductName = "Tru Tiên",
-                    ProductCover = "css/images/movie5.jpg",
-                    ProductDescription = "This is Tru Tiên Product",
+                    ProductName = "women7",
+                    ProductCover = "css/images/product_women7.PNG",
+                    ProductDescription = "This is women7",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product18,
-                    ProductName = "Nghịch Thiên Chí Tôn",
-                    ProductCover = "css/images/movie4.jpg",
-                    ProductDescription = "This is Nghịch Thiên Chí Tôn Product",
+                    ProductName = "women8",
+                    ProductCover = "css/images/product_women8.PNG",
+                    ProductDescription = "This is women8",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product19,
-                    ProductName = "Thế Giới Hoàn Mỹ",
-                    ProductCover = "css/images/movie3.jpg",
-                    ProductDescription = "This is Thế Giới Hoàn Mỹ Product",
+                    ProductName = "women9",
+                    ProductCover = "css/images/product_women9.PNG",
+                    ProductDescription = "This is women9",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 },
                 new Product()
                 {
                     ProductId = product20,
-                    ProductName = "Đấu Phá Thương Khung",
-                    ProductCover = "css/images/movie2.jpg",
-                    ProductDescription = "This is Đấu Phá Thương Khung Product",
+                    ProductName = "women10",
+                    ProductCover = "css/images/product_women10.PNG",
+                    ProductDescription = "This is women10",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product21,
+                    ProductName = "pantman1",
+                    ProductCover = "css/images/product_pantmen1.PNG",
+                    ProductDescription = "This is pantman1",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product22,
+                    ProductName = "pantman2",
+                    ProductCover = "css/images/product_pantmen2.PNG",
+                    ProductDescription = "This is pantman2",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product23,
+                    ProductName = "pantman3",
+                    ProductCover = "css/images/product_pantmen3.PNG",
+                    ProductDescription = "This is pantman3",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product24,
+                    ProductName = "pantman4",
+                    ProductCover = "css/images/product_pantmen4.PNG",
+                    ProductDescription = "This is pantman4",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product25,
+                    ProductName = "pantman5",
+                    ProductCover = "css/images/product_pantmen5.PNG",
+                    ProductDescription = "This is pantman5",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product26,
+                    ProductName = "pantwoman1",
+                    ProductCover = "css/images/product_pantwomen1.PNG",
+                    ProductDescription = "This is pantwoman1",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product27,
+                    ProductName = "pantwoman2",
+                    ProductCover = "css/images/product_pantwomen2.PNG",
+                    ProductDescription = "This is pantwoman2",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product28,
+                    ProductName = "pantwoman3",
+                    ProductCover = "css/images/product_pantwomen3.PNG",
+                    ProductDescription = "This is pantwoman3",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product29,
+                    ProductName = "pantwoman4",
+                    ProductCover = "css/images/product_pantwomen4.PNG",
+                    ProductDescription = "This is pantwoman4",
+                    ProductIntro = "link clip",
+                    ProductRate = 5
+                },
+                new Product()
+                {
+                    ProductId = product30,
+                    ProductName = "pantwoman5",
+                    ProductCover = "css/images/product_pantwomen5.PNG",
+                    ProductDescription = "This is pantwoman5",
                     ProductIntro = "link clip",
                     ProductRate = 5
                 });
-         
 
 
-        //Table About
-        //builder.Entity<About>().HasData(
-        //        new About()
-        //        {
-        //            about_id=1,
-        //            about_Url= "https://www.youtube.com/watch?v=F1vcruph8JA",
-        //            about_Title = "Footwear the leading eCommerce Store around the Globe",
-        //            about_Description = "The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. \n \n When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove,the headline of Alphabet Village and the subline of her own road,the Line Lane.Pityful a rethoric question ran over her cheek,then she continued her way."
-        //        });
+
+            //Table About
+            //builder.Entity<About>().HasData(
+            //        new About()
+            //        {
+            //            about_id=1,
+            //            about_Url= "https://www.youtube.com/watch?v=F1vcruph8JA",
+            //            about_Title = "Footwear the leading eCommerce Store around the Globe",
+            //            about_Description = "The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. \n \n When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove,the headline of Alphabet Village and the subline of her own road,the Line Lane.Pityful a rethoric question ran over her cheek,then she continued her way."
+            //        });
 
             var IdRoleStaff = "f49e4348-718f-43e3-b1f6-6dc89c5Bb4fd";
             var IdRoleAdmin = "360E601E-92F2-4F08-832B-604A21293258";
@@ -251,7 +343,7 @@ namespace ProjectTXServer.Data.DataSeeding
                 new AppRole()
                 {
                     Id = IdRoleStaff,
-                    Name ="Staff",
+                    Name = "Staff",
                     Description = "Staff",
                     NormalizedName = "staff"
                 },
@@ -285,7 +377,7 @@ namespace ProjectTXServer.Data.DataSeeding
                 UserLastName = "admin last name",
                 UserPhoneNumber = "08658568790",
                 UserDoB = new DateTime(2020, 01, 02)
-                
+
             },
             new AppUser
             {
@@ -358,208 +450,47 @@ namespace ProjectTXServer.Data.DataSeeding
                 new ProductType()
                 {
                     ProductTypeId = ifProductType1,
-                    ProductTypeName = "Romantic",
+                    ProductTypeName = "Pants",
 
                 },
                 new ProductType()
                 {
                     ProductTypeId = ifProductType2,
-                    ProductTypeName = "Action",
-
-
-
+                    ProductTypeName = "Shirt",
                 });
-            //new ProductType()
-            //{
-            //    ProductTypeId = ifProductType3,
-            //    ProductTypeName = "Action",
+            var idGender1 = Guid.NewGuid().ToString();
+            var idGender2 = Guid.NewGuid().ToString();
+            //Table Gender
+            builder.Entity<GenderType>().HasData(
+               new GenderType()
+               {
+                   GenderId = idGender1,
+                   GenderName = "Man",
+
+               },
+               new GenderType()
+               {
+                   GenderId = idGender2,
+                   GenderName = "Women",
+               });
 
 
-
-            //},
-            //new ProductType()
-            //{
-            //    ProductTypeId = ifProductType4,
-            //    ProductTypeName = "Romantic",
-
-
-
-            //},
-            //new ProductType()
-            //{
-            //    ProductTypeId = ifProductType5,
-            //    ProductTypeName = "Action",
-
-
-
-            //});
-
-
-
-
-
-
-
-
-            //Table ContactUsers
-            //var contactUser = Guid.NewGuid().ToString();
-
-            //builder.Entity<ContactUsers>().HasData(
-            //    new ContactUsers()
-            //    {
-            //        cu_Id = contactUser.ToString(),
-            //        cu_FirstName = "FirstName",
-            //        cu_LastName = "LastName",
-            //        cu_Email = "Email",
-            //        cu_Subject = "Subject",
-            //        cu_Description = "Description"
-            //    });
-
-
-            //var ReviewId1 = "EEBA6608-AB75-4E83-909F-604B1A06F16C";
-            //var ReviewId2 = "9EED8607-D2BB-45EE-AEE3-C59D858A7F97";
-            //var ReviewId3 = "C2A543C2-B1E2-4DC5-A131-9137E4673FA6";
-
-
-
-
-            //Table Reviews new DateTime(2020, 01, 02)
-
-
-            //builder.Entity<Reviews>().HasData(
-            //    new Reviews()
-            //    {
-            //        review_id = ReviewId1,
-            //        review_Comment = "Good1",
-            //        review_UserId = IdAdmin,
-            //        review_UploadTime = new DateTime(2020, 01, 02),
-            //        review_HideStatus = false,
-            //        review_ReviewType = "Review"
-
-            //    },
-            //    new Reviews()
-            //    {
-            //        review_id = ReviewId2,
-            //        review_Comment = "Good2",
-            //        review_UserId = IdStaff,
-            //        review_UploadTime = new DateTime(2020, 01, 02),
-            //        review_HideStatus = false,
-            //        review_ReviewType = "Review"
-
-            //    },
-            //    new Reviews()
-            //    {
-            //        review_id = ReviewId3,
-            //        review_Comment = "Good3",
-            //        review_UserId = IdAdmin,
-            //        review_UploadTime = new DateTime(2020, 01, 02),
-            //        review_HideStatus = false,
-            //        review_ReviewType = "Review"
-
-            //    });
-
-            //var SubReviewId1 = Guid.NewGuid().ToString(); 
-            //var SubReviewId2 = Guid.NewGuid().ToString();
-            //var SubReviewId3 = Guid.NewGuid().ToString();
-
-
-            // Table SubReview 
-
-            //builder.Entity<SubReview>().HasData(
-            //    new SubReview()
-            //    {
-            //        subReview_Id = SubReviewId1,
-            //        subReview_UserId = IdAdmin,
-            //        subReview_Commnet = "subreview 1",
-            //        subReview_DateCommnet = new DateTime(2020, 01, 02),
-            //        subReview_HideStatus = false,
-            //        subreview_SubReviewType = "SubReview"
-            //    },
-            //    new SubReview()
-            //    {
-            //        subReview_Id = SubReviewId2,
-            //        subReview_UserId = IdStaff,
-            //        subReview_Commnet = "subreview 3",
-            //        subReview_DateCommnet = new DateTime(2020, 01, 03),
-            //        subReview_HideStatus = false,
-            //        subreview_SubReviewType = "SubReview"
-            //    },
-            //    new SubReview()
-            //    {
-            //        subReview_Id = SubReviewId3,
-            //        subReview_UserId = IdAdmin,
-            //        subReview_Commnet = "subreview 3",
-            //        subReview_DateCommnet = new DateTime(2020, 01, 03),
-            //        subReview_HideStatus = false,
-            //        subreview_SubReviewType = "SubReview"
-            //    }
-            //    );
-
-            //builder.Entity<SubReviewInReview>().HasData(
-            //    new SubReviewInReview()
-            //    {
-            //        SRiR_ReviewId = ReviewId1,
-            //        SRiR_SubReviewId = SubReviewId1
-            //    },
-            //    new SubReviewInReview()
-            //    {
-            //        SRiR_ReviewId = ReviewId1,
-            //        SRiR_SubReviewId = SubReviewId2
-            //    },
-            //    new SubReviewInReview()
-            //    {
-            //        SRiR_ReviewId = ReviewId2,
-            //        SRiR_SubReviewId = SubReviewId3
-            //    }
-            //    );
-
-            //Table ProductInCategories
             builder.Entity<ProductInProductType>().HasData(
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product7
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product8
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product10
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product11
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product12
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product13
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product14
-                },
-                new ProductInProductType()
-                {
-                    ProductTypeId = ifProductType1,
-                    ProductId = product16
-                },
                 new ProductInProductType()
                 {
                     ProductTypeId = ifProductType2,
                     ProductId = product1
                 },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product2
+                },
+                 new ProductInProductType()
+                 {
+                     ProductTypeId = ifProductType2,
+                     ProductId = product3
+                 },
                 new ProductInProductType()
                 {
                     ProductTypeId = ifProductType2,
@@ -578,180 +509,279 @@ namespace ProjectTXServer.Data.DataSeeding
                 new ProductInProductType()
                 {
                     ProductTypeId = ifProductType2,
+                    ProductId = product7
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product8
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product9
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product10
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product11
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product12
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product13
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product14
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product15
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product16
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product17
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product18
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
                     ProductId = product19
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType2,
+                    ProductId = product20
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product21
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product22
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product23
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product24
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product25
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product26
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product27
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product28
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product29
+                },
+                new ProductInProductType()
+                {
+                    ProductTypeId = ifProductType1,
+                    ProductId = product30
                 });
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType3,
-                //    ProductId = product23
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType3,
-                //    ProductId = product24
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType3,
-                //    ProductId = product26
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType3,
-                //    ProductId = product27
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType4,
-                //    ProductId = product2
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType4,
-                //    ProductId = product18
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product3
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product9
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product15
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product17
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product20
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product21
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product22
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product25
-                //},
-                //new ProductInProductType()
-                //{
-                //    ProductTypeId = ifProductType5,
-                //    ProductId = product28
-                //});
 
-
-            //Table ReviewInproduct
+            //Table ProductInGender
 
 
 
-            //builder.Entity<ReviewInproduct>().HasData(
-            //    new ReviewInproduct()
-            //    {
-            //        rip_ProductId = product1,
-            //        rip_ReviewId = ReviewId1,
-            //    },
-            //    new ReviewInproduct()
-            //    {
-            //        rip_ProductId = product1,
-            //        rip_ReviewId = ReviewId2,
-            //    },
-            //    new ReviewInproduct()
-            //    {
-            //        rip_ProductId = product1,
-            //        rip_ReviewId = ReviewId3,
-            //    });
-
-
-            //builder.Entity<Coupons>().HasData(
-            //    new Coupons()
-            //    {
-            //        couponId = Guid.NewGuid().ToString(),
-            //        couponCode ="code10",
-            //        couponPrice = 10
-            //    },
-            //    new Coupons()
-            //    {
-            //        couponId = Guid.NewGuid().ToString(),
-            //        couponCode = "code50",
-            //        couponPrice = 50
-            //    });
-
-
-
-            //string billId1 = "D269BF93-A5E2-4C4A-8146-9967DDE80D30";
-
-            ////Table Bills
-
-            //builder.Entity<Bills>().HasData(
-            //    new Bills()
-            //    {
-            //        bill_Id = billId1,
-            //        bill_UserId = IdStaff,
-            //        bill_PaidTotal = 2000,
-            //        bill_ProductIdlist = "1|2|3|4",
-            //        bill_ProductNamelist = "product 1|product 2| product 3| product 4|",
-            //        bill_ProductPricelist = "550|450|350|640|",
-            //        bill_Shipping = 10,
-            //        bill_Discount = 0,
-            //        bill_Confirmation = true,
-            //        bill_DatetimeOrder = DateTime.Now,
-            //        bill_PaymentMethod = "Check Payment",
-            //        bill_Note = "",
-            //        bill_Quantity = "1|1|2|1|",
-            //        bill_HideStatus = false,
-            //        bill_WaitForConfirmation = false,
-            //        bill_WaitPickup = false,
-            //        bill_Delivering = false,
-            //        bill_Delivered =  false,
-            //        bill_Cancelled = false
-            //    }); ;
-
-            //Table Shiping
-
-            //string shipId = "7CF94A7D-9239-446E-A404-086518F84652";
-
-            //builder.Entity<Shipping>().HasData(
-            //    new Shipping()
-            //    {
-            //        ship_Id = shipId,
-            //        ship_Name ="Ship",
-            //        ship_Price = 5
-            //    });
-
-            ////Table Contact System
-
-            //var ContactSystemId = Guid.NewGuid().ToString();
-
-            //builder.Entity<ContactSystem>().HasData(
-            //    new ContactSystem()
-            //    {
-            //        Contact_Id = ContactSystemId,
-            //        Contact_Address = "Huntsville, AL 35813, USA",
-            //        Contact_Description = "Prof Lord John Krebs provides a brief history of human food, from our remote ancestors 3 million years ago to the present day. By looking at the four great transitions in human food - cooking, agriculture, processing, and preservation - he considers a variety of questions, including why people like some kinds of foods and not others; how your senses contribute to flavor; the role of genetics in our likes and dislikes; and the differences in learning and culture around the world.",
-            //        Contact_Email = "support@foodshop.com ",
-            //        Contact_Phone = "021.343.7575"
-            //    });
-
-
-        }    
-                
-               
-    }   
+            builder.Entity<ProductInGender>().HasData(
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product1
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product2
+               },
+                new ProductInGender()
+                {
+                    GenderId = idGender1,
+                    ProductId = product3
+                },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product4
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product5
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product6
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product7
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product8
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product9
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product10
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product11
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product12
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product13
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product14
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product15
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product16
+               },
+              new ProductInGender()
+              {
+                  GenderId = idGender2,
+                  ProductId = product17
+              },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product18
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product19
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product20
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product21
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product22
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product23
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product24
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender1,
+                   ProductId = product25
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product26
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product27
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product28
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product29
+               },
+               new ProductInGender()
+               {
+                   GenderId = idGender2,
+                   ProductId = product30
+               });
+        }
+    }
 }

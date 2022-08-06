@@ -17,5 +17,6 @@ namespace ProjectTXServer.Models
         public string ProductIntro { set; get; }
         public int ProductRate { set; get; }
         public string ProductType{ set; get; }
+        public string ProductGender { set; get; }
     }
 }

@@ -46,6 +46,8 @@ namespace ProjectTXServer.Data
             //builder.ApplyConfiguration(new ProductInCartConfigurations());
             builder.ApplyConfiguration(new ProductInProductTypeConfigurations());
             builder.ApplyConfiguration(new ProductTypeConfigurations());
+            builder.ApplyConfiguration(new ProductInGenderConfigurations());
+            builder.ApplyConfiguration(new GenderTypeConfigurations());
             //builder.ApplyConfiguration(new ReviewsConfigurations());
             //builder.ApplyConfiguration(new ReviewInproductConfigurations());
             //builder.ApplyConfiguration(new CouponsConfigurations());
@@ -74,8 +76,10 @@ namespace ProjectTXServer.Data
         public DbSet<Product> Product { set; get; }
         public DbSet<AppRole> AppRole { set; get; }
         public DbSet<AppUser> AppUser { set; get; }
+        public DbSet<GenderType> Gender { set; get; }
         public DbSet<ProductType> ProductType { set; get; }
         public DbSet<ProductInProductType> ProductInProductType { set; get; }
+        public DbSet<ProductInGender> ProductInGender { set; get; }
         //public DbSet<ContactSystem> ContactSystem { set; get; }
         //public DbSet<ContactUsers> ContactUsers { set; get; }
         //public DbSet<Products> Products { set; get; }
